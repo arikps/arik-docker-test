@@ -11,4 +11,5 @@ COPY lib ./lib
 COPY views ./views
 COPY test ./test
 
-ENTRYPOINT [ "npm", "test" ]
+CMD [ "node","server.js"]
+
